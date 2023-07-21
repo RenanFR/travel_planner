@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.gmail.renanfr1047.travel.model.OpenTripMapResponse;
 
-@FeignClient(name = "opentripmap", url = "http://api.opentripmap.com")
+@FeignClient(name = "openTripMap", url = "http://api.opentripmap.com")
 public interface OpenTripMapClient {
 
 	@RequestMapping(method = RequestMethod.GET, value = "/0.1/en/places/radius?radius={radius}&lon={lon}&lat={lat}&apikey={apiKey}")
 	OpenTripMapResponse getPlacesInRadius(@PathVariable("radius") double radius, @PathVariable("lon") double lon,
-			@PathVariable("lat") double lat, @PathVariable("apiKey") String apiKey);
+			@PathVariable("lat") double lat);
 
 }

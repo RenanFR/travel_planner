@@ -8,7 +8,6 @@ import java.io.InputStream;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
@@ -20,9 +19,6 @@ import com.gmail.renanfr1047.travel.model.OpenTripMapResponse;
 @ExtendWith(SpringExtension.class)
 public class OpenTripMapClientTest {
 
-	@Value("${OPENTRIPMAP_API_KEY}")
-	private String apiKey;
-
 	@Autowired
 	private OpenTripMapClient openTripMapClient;
 
@@ -33,7 +29,7 @@ public class OpenTripMapClientTest {
 		double lat = 51.553636;
 
 		OpenTripMapResponse expectedResponse = loadResponseFromJsonFile("getListOfPlacesByRadius.json");
-		OpenTripMapResponse response = openTripMapClient.getPlacesInRadius(radius, lon, lat, apiKey);
+		OpenTripMapResponse response = openTripMapClient.getPlacesInRadius(radius, lon, lat);
 
 		assertEquals(expectedResponse, response);
 
