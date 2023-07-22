@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7etIxZ0VnQVhIFwIFJiXrZPk172By",
+  "object": "chat.completion",
+  "created": 1689980067,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The Dennis Bergkamp statue is a bronze monument that was erected outside the Emirates Stadium in London in February 2014 as a tribute to the legendary Dutch footballer Dennis Bergkamp. The statue depicts Bergkamp, known as \"The Non-Flying Dutchman,\" in mid-air, capturing his iconic goal against Newcastle United in 2002. The moment captured in the statue symbolizes not only Bergkamp's astonishing skill but also his immense impact on Arsenal Football Club during his playing days from 1995 to 2006. The statue is highly regarded and admired by football fans as a fitting testament to Bergkamp's contribution to the game and his status as an Arsenal icon."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 21,
+    "completion_tokens": 140,
+    "total_tokens": 161
+  }
+}

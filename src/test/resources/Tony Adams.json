@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7f6YlM3Jl8FEEcxL1CC9lUHX2hmIN",
+  "object": "chat.completion",
+  "created": 1690031019,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The statue of Tony Adams, located outside the Emirates Stadium in North London, honors the legendary Arsenal football player and captain. Unveiled in December 2011, the bronze sculpture portrays Adams in his iconic goal-scoring celebration pose, with arms raised high. Standing at 9 feet tall and weighing nearly a ton, the monument symbolizes not only Adams' remarkable achievements but also his significant contribution to the club's success. Adams spent his entire professional career at Arsenal, winning numerous trophies including four league titles and three FA Cups. The statue serves as a lasting tribute to his long-standing commitment, leadership, and unwavering loyalty to the club, ensuring that his legacy will continue to inspire generations of football fans."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19,
+    "completion_tokens": 143,
+    "total_tokens": 162
+  }
+}

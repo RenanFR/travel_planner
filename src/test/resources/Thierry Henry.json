@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7etFPI9xlrCuT9gBZgngObeUpkKkG",
+  "object": "chat.completion",
+  "created": 1689979847,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Thierry Henry, the legendary French footballer, has been honored with a statue in his likeness. The statue, located outside the Emirates Stadium in London, celebrates Henry's iconic pose of celebrating a goal with his arms raised and finger-pointing. It captures the essence of his incredible skill, pace, and goal-scoring prowess during his time at Arsenal Football Club, where he became their all-time leading goalscorer. The statue symbolizes Henry's immense contribution to the club and his lasting impact on the sport, serving as a reminder of his extraordinary talent and status as one of the greatest footballers of his generation."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 26,
+    "completion_tokens": 125,
+    "total_tokens": 151
+  }
+}

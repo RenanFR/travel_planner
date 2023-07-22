@@ -1,2 +1,12 @@
-openTripMap: 
-    apiKey: 5ae2e3f221c38a28845f05b66267e483a7e02e2a5135d59fe82f1dab
+openTripMap:
+#  ribbon: 
+#    listOfServers: http://api.opentripmap.com
+  apiKey: 5ae2e3f221c38a28845f05b66267e483a7e02e2a5135d59fe82f1dab
+  url: http://api.opentripmap.com
+
+chatgpt:
+  apiEndpoint: https://api.openai.com/v1/chat/completions
+  apiKey: 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
+  
+wiremock.host: localhost
+wiremock.port: 8080

@@ -1,0 +1,8 @@
+{
+  "error": {
+    "message": "Invalid Content-Type header (multipart/form-data; boundary=--------------------------238260571260641678931046), expected application/json. (HINT: If you're using curl, you can pass -H 'Content-Type: application/json')",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": null
+  }
+}

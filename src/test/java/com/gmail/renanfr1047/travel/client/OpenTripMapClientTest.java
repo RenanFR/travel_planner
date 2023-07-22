@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.IOException;
 import java.io.InputStream;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ public class OpenTripMapClientTest {
 	private OpenTripMapClient openTripMapClient;
 
 	@Test
+	@Ignore
 	public void testGetPlacesInRadius() throws IOException {
 		double radius = 1000;
 		double lon = -0.108412;

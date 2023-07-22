@@ -1,12 +1,14 @@
 package com.gmail.renanfr1047.travel.model;
 
-import java.util.Properties;
-
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 
 @EqualsAndHashCode(of = { "type", "id", "geometry", "properties" })
+@Getter
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Feature {
 
 	@JsonProperty("type")
@@ -19,6 +21,6 @@ public class Feature {
 	private Geometry geometry;
 
 	@JsonProperty("properties")
-	private Properties properties;
+	private FeatureProperties properties;
 
 }

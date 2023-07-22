@@ -1,0 +1,47 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/0.1/en/places/radius\\?radius=.*&lon=.*&lat=.*",
+		"queryParameters": {
+			"radius": {
+				"equalTo": "1000.0"
+			},
+			"lon": {
+				"equalTo": "-0.108412"
+			},
+			"lat": {
+				"equalTo": "51.553636"
+			}
+		}
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": {
+			"type": "FeatureCollection",
+			"features": [
+				{
+					"type": "Feature",
+					"id": "722241",
+					"geometry": {
+						"type": "Point",
+						"coordinates": [
+							-0.1099742,
+							51.5545082
+						]
+					},
+					"properties": {
+						"xid": "N2902036121",
+						"name": "Dennis Bergkamp statue",
+						"dist": 145.34189497,
+						"rate": 1,
+						"osm": "node/2902036121",
+						"kinds": "cultural,urban_environment,interesting_places,sculptures"
+					}
+				}
+			]
+		},
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}

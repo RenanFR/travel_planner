@@ -1,0 +1,19 @@
+{
+  "id": "cmpl-7et8rhIPI9zbzhPc7cddHGCCkgKdw",
+  "object": "text_completion",
+  "created": 1689979441,
+  "model": "davinci",
+  "choices": [
+    {
+      "text": "\n\nAt the entrance of the three thes, around thirty-six statues",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 14,
+    "completion_tokens": 16,
+    "total_tokens": 30
+  }
+}
